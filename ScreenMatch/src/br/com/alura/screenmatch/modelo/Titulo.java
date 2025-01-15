@@ -48,7 +48,7 @@ public class Titulo {
         System.out.println("O nome do filme é " + nome + " e sua duração é de " + duracaoEmMinutos + " minutos");
     }
 
-    public void Avalia(double nota) {
+    public void avalia(double nota) {
         somaDasAvaliacoes += nota;
         totalAvaliacoes++;
     }
