@@ -8,8 +8,8 @@ import java.util.ArrayList;
 
 public class Principal {
     public static void main(String[] args) {
-        Filme meuFilme = new Filme();
-        meuFilme.setNome("Poderoso chefão");
+        Filme meuFilme = new Filme("Poderoso Chefão");
+//        meuFilme.setNome("Poderoso chefão");
         meuFilme.setAnoLancamento(1970);
         meuFilme.setDuracaoEmMinutos(180);
         System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
@@ -21,8 +21,8 @@ public class Principal {
         System.out.println("Total de avaliações: " + meuFilme.getTotalAvaliacoes());
         System.out.println(meuFilme.pegaMedia());
 
-        Filme outroFilme = new Filme();
-        outroFilme.setNome("Transformes");
+        Filme outroFilme = new Filme("Transformes");
+//        outroFilme.setNome("Transformes");
         outroFilme.setAnoLancamento(2023);
         outroFilme.setDuracaoEmMinutos(200);
 
